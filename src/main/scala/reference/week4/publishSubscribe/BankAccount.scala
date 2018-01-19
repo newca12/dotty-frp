@@ -1,4 +1,4 @@
-package week4.publishSubscribe
+package reference.week4.publishSubscribe
 
 class BankAccount extends Publisher {
   private var balance = 0

@@ -1,4 +1,4 @@
-package week4.frp
+package reference.week4.frp
 
 class StackableVariable[T](init: T) {
   private var values: List[T] = List(init)

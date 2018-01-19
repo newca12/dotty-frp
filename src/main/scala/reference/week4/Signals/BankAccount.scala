@@ -1,6 +1,6 @@
-package week4.Signals
+package reference.week4.Signals
 
-import week4.frp.Var
+import reference.week4.frp.Var
 
 
 class BankAccount {

@@ -1,4 +1,4 @@
-package week4.publishSubscribe
+package reference.week4.publishSubscribe
 
 trait Publisher {
   private var subscribers: Set[Subscriber] = Set()

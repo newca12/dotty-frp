@@ -1,4 +1,4 @@
-package week4.publishSubscribe
+package reference.week4.publishSubscribe
 
 class Consolidator(observed: List[BankAccount]) extends Subscriber {
   observed.foreach(_.subscribe(this))
