@@ -1,9 +1,8 @@
 package reference.week4.frp
 
-/**
-  * Created by priyammitra on 6/6/17.
-  */
+//A Var is a Signal (aka Cell/Rx) which can be changed manually via assignment.
 class Var[T](expr: => T) extends Signal[T](expr) {
+  //trick to allow public access to parent protected method
   override def update(expr: => T): Unit = super.update(expr)
 }
 
