@@ -1,5 +1,5 @@
-import week4.frp.Signal
-import week4.Signals.BankAccount
+import reference.week4.frp.Signal
+import reference.week4.Signals.BankAccount
 
 object accounts {
 

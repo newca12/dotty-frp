@@ -16,4 +16,6 @@ Most recent [talk *"Simplicitly: Foundations and Applications of Implicit Functi
 
 See also the [announce blog post](https://www.scala-lang.org/blog/2016/12/07/implicit-function-types.html) by Martin Odersky (with a [Reddit discussion](https://www.reddit.com/r/scala/comments/5h1d07/implicit_function_types_by_martin_odersky/)) and this other [example code](https://github.com/lampepfl/dotty-example-project/blob/master/src/main/scala/ImplicitFunctions.scala).
 
+The [paper *"Simplicitly: Foundations and Applications of Implicit Function Types"*](https://infoscience.epfl.ch/record/229878/files/simplicitly_1.pdf) and some [rants](https://twitter.com/edmund_noble/status/954739200577982464) from Edmund A. Noble.
+
 This WIP is an attempt to implement a [Sodium FRP implementation](https://github.com/SodiumFRP) with implicit function types.
