@@ -2,7 +2,7 @@
 
 ### About
 
-In coursera course [Functional Program Design in Scala](https://www.coursera.org/learn/progfun2) Martin Odersky show [a sample FRP implementation](https://www.coursera.org/learn/progfun2/lecture/5lWVa/lecture-4-3-a-simple-frp-implementation).
+In coursera course [Functional Program Design in Scala](https://www.coursera.org/learn/progfun2) Martin Odersky show [a sample FRP implementation](https://www.coursera.org/learn/progfun2/lecture/5lWVa/lecture-4-3-a-simple-frp-implementation). You can see the summary [here](https://github.com/rohgar/scala-design-2/wiki/A-Simple-FRP-Implementation).
 
 At the end of the lecture 4.3 some ideas for improvements where given :
 
