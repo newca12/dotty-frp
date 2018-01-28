@@ -6,6 +6,7 @@ class StackableVariable[T](init: T) {
   def value: T = values.head //the current value is the head of the list
   def withValue[R](newValue: T)(op: => R): R = {
     values = newValue :: values
-    try op finally values = values.tail
+    try op
+    finally values = values.tail
   }
 }

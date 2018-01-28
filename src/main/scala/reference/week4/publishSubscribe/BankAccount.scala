@@ -10,8 +10,9 @@ class BankAccount extends Publisher {
     publish()
   }
 
-  def withdraw(amount: Int) = if (0 < amount && amount <= balance) {
-    balance = balance - amount
-    publish()
-  } else throw new Error("Insufficient funds")
+  def withdraw(amount: Int) =
+    if (0 < amount && amount <= balance) {
+      balance = balance - amount
+      publish()
+    } else throw new Error("Insufficient funds")
 }

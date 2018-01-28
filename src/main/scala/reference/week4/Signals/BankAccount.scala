@@ -2,7 +2,6 @@ package reference.week4.Signals
 
 import reference.week4.frp.Var
 
-
 class BankAccount {
   val balance = Var(0)
 

@@ -7,14 +7,14 @@ import reference.week4.frp.Signal
 class TestFrp {
   //from https://github.com/lihaoyi/scala.rx
   @Test def scalarxReadMe1(): Unit = {
-     val a = Var(1)
-     val b = Var(2)
-     val c = Signal(a() + b())
-     val d = Signal(c() * 5)
-     val e = Signal(c() + 4)
-     val f = Signal(d() + e() + 4)
+    val a = Var(1)
+    val b = Var(2)
+    val c = Signal(a() + b())
+    val d = Signal(c() * 5)
+    val e = Signal(c() + 4)
+    val f = Signal(d() + e() + 4)
     assertEquals(f(), 26)
-    a()=3
+    a() = 3
     assertEquals(f(), 38)
   }
 
@@ -27,7 +27,7 @@ class TestFrp {
     val e = Var("wtf")
     val f = Signal { (d() :+ e()).mkString }
     assertEquals(f(), "omgomgomgomgomgomgomgomgomgwtf")
-    a()=Nil
+    a() = Nil
     assertEquals(f(), "omgomgomgwtf")
     e() = "wtfbbq"
     assertEquals(f(), "omgomgomgwtfbbq")
