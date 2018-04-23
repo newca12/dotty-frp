@@ -21,4 +21,4 @@ This WIP is an attempt to implement a [Sodium FRP implementation](https://github
 
 ### Resources
 * The [paper *"Simplicitly: Foundations and Applications of Implicit Function Types"*](https://infoscience.epfl.ch/record/229878/files/simplicitly_1.pdf) and some [rants](https://twitter.com/edmund_noble/status/954739200577982464) from Edmund A. Noble.
-* Most recent [talk *"Simplicitly: Foundations and Applications of Implicit FunctionTypes"*]() by Martin Odersky at POPL 2018
+* Most recent [talk *"Simplicitly: Foundations and Applications of Implicit FunctionTypes"*](https://www.youtube.com/watch?v=9Wp_riP8LQw) by Martin Odersky at POPL 2018
