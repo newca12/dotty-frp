@@ -10,14 +10,14 @@ At the end of the lecture 4.3 some ideas for improvements where given :
 
 The idea was demonstrated in this [talk *"Plain Functional Programming"*](https://twitter.com/odersky/status/928985957755506688) by Martin Odersky at Devoxx 2017
 
-This dotty feature is called [Implicit Function Types](http://dotty.epfl.ch/docs/reference/implicit-function-types.html).
+This dotty feature is called [Context queries](http://dotty.epfl.ch/docs/reference/contextual/query-types.html). (previously named implicit function types)
 
 This WIP is an attempt to implement a [Sodium FRP implementation](https://github.com/SodiumFRP) with implicit function types.
 
 ### A taste of "Implicit Function Types"
 
 * [Comparative demo](https://github.com/newca12/dotty-frp/tree/master/src/main/scala/demos/transaction) from the transaction use case mentioned in the [announce blog post](https://www.scala-lang.org/blog/2016/12/07/implicit-function-types.html) by Martin Odersky (with a [Reddit discussion](https://www.reddit.com/r/scala/comments/5h1d07/implicit_function_types_by_martin_odersky/)).
-* [Example code](https://github.com/lampepfl/dotty-example-project/blob/master/src/main/scala/ImplicitFunctions.scala) in dotty-example-project.
+* [Example code](https://github.com/lampepfl/dotty-example-project/blob/master/src/main/scala/ContextQueries.scala) in dotty-example-project.
 
 ### Resources
 * The [paper *"Simplicitly: Foundations and Applications of Implicit Function Types"*](https://infoscience.epfl.ch/record/229878/files/simplicitly_1.pdf) and some [rants](https://twitter.com/edmund_noble/status/954739200577982464) from Edmund A. Noble.

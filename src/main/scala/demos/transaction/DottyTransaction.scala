@@ -21,7 +21,7 @@ class DottyTransaction {
 }
 
 object RunDottyTransaction {
-type Transactional[T] = implicit DottyTransaction => T
+type Transactional[T] = given DottyTransaction => T
 def thisTransaction: Transactional[DottyTransaction] = implicitly[DottyTransaction]
 
   def f1(x: Int): Transactional[Int] = {
